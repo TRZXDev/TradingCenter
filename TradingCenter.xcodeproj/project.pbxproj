@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		237AFB485007AABFFDF41352 /* libPods-TradingCenter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 374D5BFD5B96159B2FA08E9A /* libPods-TradingCenter.a */; };
+		715997F21E5E717F006D94F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 715997F11E5E717F006D94F4 /* main.m */; };
+		715997F51E5E717F006D94F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 715997F41E5E717F006D94F4 /* AppDelegate.m */; };
+		715997F81E5E717F006D94F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715997F71E5E717F006D94F4 /* ViewController.m */; };
+		715997FB1E5E717F006D94F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715997F91E5E717F006D94F4 /* Main.storyboard */; };
+		715997FD1E5E717F006D94F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715997FC1E5E717F006D94F4 /* Assets.xcassets */; };
+		715998001E5E717F006D94F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715997FE1E5E717F006D94F4 /* LaunchScreen.storyboard */; };
+		7159980A1E5E720C006D94F4 /* TradingCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998091E5E720C006D94F4 /* TradingCenterViewController.m */; };
+		7159980E1E5E748A006D94F4 /* TradingCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159980C1E5E748A006D94F4 /* TradingCenterCell.m */; };
+		7159980F1E5E748A006D94F4 /* TradingCenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7159980D1E5E748A006D94F4 /* TradingCenterCell.xib */; };
+		715998121E5E75B4006D94F4 /* TradingCenterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998111E5E75B4006D94F4 /* TradingCenterViewModel.m */; };
+		715998151E5E75C9006D94F4 /* TradingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998141E5E75C9006D94F4 /* TradingCenter.m */; };
+		7159981B1E5E7F17006D94F4 /* WMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998191E5E7F17006D94F4 /* WMTableViewController.m */; };
+		715998211E5E8727006D94F4 /* TradingCenterHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998201E5E8727006D94F4 /* TradingCenterHomeViewModel.m */; };
+		7159982D1E5EB16B006D94F4 /* WMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159982C1E5EB16B006D94F4 /* WMHomeViewController.m */; };
+		715998301E5EB19F006D94F4 /* WMPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159982F1E5EB19F006D94F4 /* WMPanGestureRecognizer.m */; };
+		715998331E5EB682006D94F4 /* TradingCenterWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998321E5EB681006D94F4 /* TradingCenterWebViewController.m */; };
+		715998361E5EB6FC006D94F4 /* TradingCenterListedProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998351E5EB6FC006D94F4 /* TradingCenterListedProjectViewController.m */; };
+		715998391E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998381E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.m */; };
+		7159983C1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159983B1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.m */; };
+		715998421E5ED1E7006D94F4 /* TradingCenterTrailerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998401E5ED1E7006D94F4 /* TradingCenterTrailerCell.m */; };
+		715998431E5ED1E7006D94F4 /* TradingCenterTrailerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715998411E5ED1E7006D94F4 /* TradingCenterTrailerCell.xib */; };
+		715998471E5ED203006D94F4 /* TradingCenterActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998451E5ED203006D94F4 /* TradingCenterActivityCell.m */; };
+		715998481E5ED203006D94F4 /* TradingCenterActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715998461E5ED203006D94F4 /* TradingCenterActivityCell.xib */; };
+		7159984B1E5ED63F006D94F4 /* TradingCenterActivityTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159984A1E5ED63F006D94F4 /* TradingCenterActivityTrailer.m */; };
+		7159984E1E5EDCDC006D94F4 /* tradingCenter更多@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7159984D1E5EDCDC006D94F4 /* tradingCenter更多@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		374D5BFD5B96159B2FA08E9A /* libPods-TradingCenter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TradingCenter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715997ED1E5E717F006D94F4 /* TradingCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		715997F11E5E717F006D94F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		715997F31E5E717F006D94F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		715997F41E5E717F006D94F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		715997F61E5E717F006D94F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		715997F71E5E717F006D94F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		715997FA1E5E717F006D94F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		715997FC1E5E717F006D94F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		715997FF1E5E717F006D94F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		715998011E5E717F006D94F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		715998081E5E720C006D94F4 /* TradingCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterViewController.h; sourceTree = "<group>"; };
+		715998091E5E720C006D94F4 /* TradingCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterViewController.m; sourceTree = "<group>"; };
+		7159980B1E5E748A006D94F4 /* TradingCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterCell.h; sourceTree = "<group>"; };
+		7159980C1E5E748A006D94F4 /* TradingCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterCell.m; sourceTree = "<group>"; };
+		7159980D1E5E748A006D94F4 /* TradingCenterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradingCenterCell.xib; sourceTree = "<group>"; };
+		715998101E5E75B4006D94F4 /* TradingCenterViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterViewModel.h; sourceTree = "<group>"; };
+		715998111E5E75B4006D94F4 /* TradingCenterViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterViewModel.m; sourceTree = "<group>"; };
+		715998131E5E75C9006D94F4 /* TradingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenter.h; sourceTree = "<group>"; };
+		715998141E5E75C9006D94F4 /* TradingCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenter.m; sourceTree = "<group>"; };
+		715998181E5E7F17006D94F4 /* WMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTableViewController.h; sourceTree = "<group>"; };
+		715998191E5E7F17006D94F4 /* WMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTableViewController.m; sourceTree = "<group>"; };
+		7159981F1E5E8727006D94F4 /* TradingCenterHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterHomeViewModel.h; sourceTree = "<group>"; };
+		715998201E5E8727006D94F4 /* TradingCenterHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterHomeViewModel.m; sourceTree = "<group>"; };
+		7159982B1E5EB16B006D94F4 /* WMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMHomeViewController.h; sourceTree = "<group>"; };
+		7159982C1E5EB16B006D94F4 /* WMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMHomeViewController.m; sourceTree = "<group>"; };
+		7159982E1E5EB19F006D94F4 /* WMPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPanGestureRecognizer.h; sourceTree = "<group>"; };
+		7159982F1E5EB19F006D94F4 /* WMPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPanGestureRecognizer.m; sourceTree = "<group>"; };
+		715998311E5EB681006D94F4 /* TradingCenterWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterWebViewController.h; sourceTree = "<group>"; };
+		715998321E5EB681006D94F4 /* TradingCenterWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterWebViewController.m; sourceTree = "<group>"; };
+		715998341E5EB6FC006D94F4 /* TradingCenterListedProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterListedProjectViewController.h; sourceTree = "<group>"; };
+		715998351E5EB6FC006D94F4 /* TradingCenterListedProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterListedProjectViewController.m; sourceTree = "<group>"; };
+		715998371E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterRoadshowLiveViewController.h; sourceTree = "<group>"; };
+		715998381E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterRoadshowLiveViewController.m; sourceTree = "<group>"; };
+		7159983A1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterActivityTrailerViewController.h; sourceTree = "<group>"; };
+		7159983B1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterActivityTrailerViewController.m; sourceTree = "<group>"; };
+		7159983D1E5EC8C5006D94F4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		7159983E1E5EC8C5006D94F4 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7159983F1E5ED1E7006D94F4 /* TradingCenterTrailerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterTrailerCell.h; sourceTree = "<group>"; };
+		715998401E5ED1E7006D94F4 /* TradingCenterTrailerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterTrailerCell.m; sourceTree = "<group>"; };
+		715998411E5ED1E7006D94F4 /* TradingCenterTrailerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradingCenterTrailerCell.xib; sourceTree = "<group>"; };
+		715998441E5ED203006D94F4 /* TradingCenterActivityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterActivityCell.h; sourceTree = "<group>"; };
+		715998451E5ED203006D94F4 /* TradingCenterActivityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterActivityCell.m; sourceTree = "<group>"; };
+		715998461E5ED203006D94F4 /* TradingCenterActivityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradingCenterActivityCell.xib; sourceTree = "<group>"; };
+		715998491E5ED63F006D94F4 /* TradingCenterActivityTrailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterActivityTrailer.h; sourceTree = "<group>"; };
+		7159984A1E5ED63F006D94F4 /* TradingCenterActivityTrailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterActivityTrailer.m; sourceTree = "<group>"; };
+		7159984D1E5EDCDC006D94F4 /* tradingCenter更多@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tradingCenter更多@2x.png"; sourceTree = "<group>"; };
+		A54E59BA9C58581B9A891D3A /* Pods-TradingCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TradingCenter/Pods-TradingCenter.debug.xcconfig"; sourceTree = "<group>"; };
+		CF92EDC124A322C4E116DCB5 /* Pods-TradingCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-TradingCenter/Pods-TradingCenter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		715997EA1E5E717F006D94F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				237AFB485007AABFFDF41352 /* libPods-TradingCenter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2015FBA854089FD89874819F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A54E59BA9C58581B9A891D3A /* Pods-TradingCenter.debug.xcconfig */,
+				CF92EDC124A322C4E116DCB5 /* Pods-TradingCenter.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28E594B4ACF2BEEFD7D22989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				374D5BFD5B96159B2FA08E9A /* libPods-TradingCenter.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715997E41E5E717F006D94F4 = {
+			isa = PBXGroup;
+			children = (
+				715997EF1E5E717F006D94F4 /* TradingCenter */,
+				715997EE1E5E717F006D94F4 /* Products */,
+				2015FBA854089FD89874819F /* Pods */,
+				28E594B4ACF2BEEFD7D22989 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		715997EE1E5E717F006D94F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				715997ED1E5E717F006D94F4 /* TradingCenter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		715997EF1E5E717F006D94F4 /* TradingCenter */ = {
+			isa = PBXGroup;
+			children = (
+				715998071E5E718F006D94F4 /* TradingCenter */,
+				715997F31E5E717F006D94F4 /* AppDelegate.h */,
+				715997F41E5E717F006D94F4 /* AppDelegate.m */,
+				715997F61E5E717F006D94F4 /* ViewController.h */,
+				715997F71E5E717F006D94F4 /* ViewController.m */,
+				715997F91E5E717F006D94F4 /* Main.storyboard */,
+				715997FC1E5E717F006D94F4 /* Assets.xcassets */,
+				715997FE1E5E717F006D94F4 /* LaunchScreen.storyboard */,
+				715998011E5E717F006D94F4 /* Info.plist */,
+				715997F01E5E717F006D94F4 /* Supporting Files */,
+			);
+			path = TradingCenter;
+			sourceTree = "<group>";
+		};
+		715997F01E5E717F006D94F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				715997F11E5E717F006D94F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		715998071E5E718F006D94F4 /* TradingCenter */ = {
+			isa = PBXGroup;
+			children = (
+				715998081E5E720C006D94F4 /* TradingCenterViewController.h */,
+				715998091E5E720C006D94F4 /* TradingCenterViewController.m */,
+				7159980B1E5E748A006D94F4 /* TradingCenterCell.h */,
+				7159980C1E5E748A006D94F4 /* TradingCenterCell.m */,
+				7159980D1E5E748A006D94F4 /* TradingCenterCell.xib */,
+				715998101E5E75B4006D94F4 /* TradingCenterViewModel.h */,
+				715998111E5E75B4006D94F4 /* TradingCenterViewModel.m */,
+				715998131E5E75C9006D94F4 /* TradingCenter.h */,
+				715998141E5E75C9006D94F4 /* TradingCenter.m */,
+				7159982B1E5EB16B006D94F4 /* WMHomeViewController.h */,
+				7159982C1E5EB16B006D94F4 /* WMHomeViewController.m */,
+				715998181E5E7F17006D94F4 /* WMTableViewController.h */,
+				715998191E5E7F17006D94F4 /* WMTableViewController.m */,
+				7159982E1E5EB19F006D94F4 /* WMPanGestureRecognizer.h */,
+				7159982F1E5EB19F006D94F4 /* WMPanGestureRecognizer.m */,
+				7159981F1E5E8727006D94F4 /* TradingCenterHomeViewModel.h */,
+				715998201E5E8727006D94F4 /* TradingCenterHomeViewModel.m */,
+				715998311E5EB681006D94F4 /* TradingCenterWebViewController.h */,
+				715998321E5EB681006D94F4 /* TradingCenterWebViewController.m */,
+				715998341E5EB6FC006D94F4 /* TradingCenterListedProjectViewController.h */,
+				715998351E5EB6FC006D94F4 /* TradingCenterListedProjectViewController.m */,
+				715998371E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.h */,
+				715998381E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.m */,
+				7159983A1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.h */,
+				7159983B1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.m */,
+				7159983F1E5ED1E7006D94F4 /* TradingCenterTrailerCell.h */,
+				715998401E5ED1E7006D94F4 /* TradingCenterTrailerCell.m */,
+				715998411E5ED1E7006D94F4 /* TradingCenterTrailerCell.xib */,
+				715998441E5ED203006D94F4 /* TradingCenterActivityCell.h */,
+				715998451E5ED203006D94F4 /* TradingCenterActivityCell.m */,
+				715998461E5ED203006D94F4 /* TradingCenterActivityCell.xib */,
+				715998491E5ED63F006D94F4 /* TradingCenterActivityTrailer.h */,
+				7159984A1E5ED63F006D94F4 /* TradingCenterActivityTrailer.m */,
+				7159984C1E5EDCD1006D94F4 /* Resources */,
+			);
+			path = TradingCenter;
+			sourceTree = "<group>";
+		};
+		7159984C1E5EDCD1006D94F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7159984D1E5EDCDC006D94F4 /* tradingCenter更多@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		715997EC1E5E717F006D94F4 /* TradingCenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 715998041E5E717F006D94F4 /* Build configuration list for PBXNativeTarget "TradingCenter" */;
+			buildPhases = (
+				7507AD274DFCD3455DD1780E /* [CP] Check Pods Manifest.lock */,
+				715997E91E5E717F006D94F4 /* Sources */,
+				715997EA1E5E717F006D94F4 /* Frameworks */,
+				715997EB1E5E717F006D94F4 /* Resources */,
+				F3E0549F18B18B9125E013E8 /* [CP] Embed Pods Frameworks */,
+				030C452698D14015EBDE044A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TradingCenter;
+			productName = TradingCenter;
+			productReference = 715997ED1E5E717F006D94F4 /* TradingCenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		715997E51E5E717F006D94F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TRZX;
+				TargetAttributes = {
+					715997EC1E5E717F006D94F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 487PQPPTGA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 715997E81E5E717F006D94F4 /* Build configuration list for PBXProject "TradingCenter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 715997E41E5E717F006D94F4;
+			productRefGroup = 715997EE1E5E717F006D94F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				715997EC1E5E717F006D94F4 /* TradingCenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		715997EB1E5E717F006D94F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715998001E5E717F006D94F4 /* LaunchScreen.storyboard in Resources */,
+				715997FD1E5E717F006D94F4 /* Assets.xcassets in Resources */,
+				715998431E5ED1E7006D94F4 /* TradingCenterTrailerCell.xib in Resources */,
+				7159984E1E5EDCDC006D94F4 /* tradingCenter更多@2x.png in Resources */,
+				7159980F1E5E748A006D94F4 /* TradingCenterCell.xib in Resources */,
+				715998481E5ED203006D94F4 /* TradingCenterActivityCell.xib in Resources */,
+				715997FB1E5E717F006D94F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030C452698D14015EBDE044A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TradingCenter/Pods-TradingCenter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7507AD274DFCD3455DD1780E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3E0549F18B18B9125E013E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TradingCenter/Pods-TradingCenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		715997E91E5E717F006D94F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				715998151E5E75C9006D94F4 /* TradingCenter.m in Sources */,
+				715998421E5ED1E7006D94F4 /* TradingCenterTrailerCell.m in Sources */,
+				7159980E1E5E748A006D94F4 /* TradingCenterCell.m in Sources */,
+				715998361E5EB6FC006D94F4 /* TradingCenterListedProjectViewController.m in Sources */,
+				715998211E5E8727006D94F4 /* TradingCenterHomeViewModel.m in Sources */,
+				715998121E5E75B4006D94F4 /* TradingCenterViewModel.m in Sources */,
+				715998331E5EB682006D94F4 /* TradingCenterWebViewController.m in Sources */,
+				715998391E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.m in Sources */,
+				715997F81E5E717F006D94F4 /* ViewController.m in Sources */,
+				7159980A1E5E720C006D94F4 /* TradingCenterViewController.m in Sources */,
+				715997F51E5E717F006D94F4 /* AppDelegate.m in Sources */,
+				7159983C1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.m in Sources */,
+				715998471E5ED203006D94F4 /* TradingCenterActivityCell.m in Sources */,
+				7159982D1E5EB16B006D94F4 /* WMHomeViewController.m in Sources */,
+				715997F21E5E717F006D94F4 /* main.m in Sources */,
+				715998301E5EB19F006D94F4 /* WMPanGestureRecognizer.m in Sources */,
+				7159981B1E5E7F17006D94F4 /* WMTableViewController.m in Sources */,
+				7159984B1E5ED63F006D94F4 /* TradingCenterActivityTrailer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		715997F91E5E717F006D94F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715997FA1E5E717F006D94F4 /* Base */,
+				7159983D1E5EC8C5006D94F4 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		715997FE1E5E717F006D94F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				715997FF1E5E717F006D94F4 /* Base */,
+				7159983E1E5EC8C5006D94F4 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		715998021E5E717F006D94F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		715998031E5E717F006D94F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		715998051E5E717F006D94F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54E59BA9C58581B9A891D3A /* Pods-TradingCenter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TradingCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TradingCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		715998061E5E717F006D94F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF92EDC124A322C4E116DCB5 /* Pods-TradingCenter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 487PQPPTGA;
+				INFOPLIST_FILE = TradingCenter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TradingCenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		715997E81E5E717F006D94F4 /* Build configuration list for PBXProject "TradingCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715998021E5E717F006D94F4 /* Debug */,
+				715998031E5E717F006D94F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		715998041E5E717F006D94F4 /* Build configuration list for PBXNativeTarget "TradingCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				715998051E5E717F006D94F4 /* Debug */,
+				715998061E5E717F006D94F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 715997E51E5E717F006D94F4 /* Project object */;
+}
