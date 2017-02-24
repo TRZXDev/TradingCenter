@@ -6,10 +6,10 @@
 //  Copyright © 2017年 TRZX. All rights reserved.
 //
 
-#import "Target_TradingCenter.h"
+#import "Target_TRZXTradingCenter.h"
 #import "TRZXTradingCenterViewController.h"
 
-@implementation Target_TradingCenter
+@implementation Target_TRZXTradingCenter
 
 - (UIViewController *)Action_TradingCenterViewController:(NSDictionary *)params;
 {

@@ -43,7 +43,7 @@
 		715998641E5FE4DD006D94F4 /* 看过@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 715998621E5FE4DD006D94F4 /* 看过@3x.png */; };
 		715998651E5FE4DD006D94F4 /* 看过@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 715998631E5FE4DD006D94F4 /* 看过@2x.png */; };
 		715998671E5FE762006D94F4 /* 回看.png in Resources */ = {isa = PBXBuildFile; fileRef = 715998661E5FE762006D94F4 /* 回看.png */; };
-		7159986A1E5FE877006D94F4 /* Target_TradingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998691E5FE877006D94F4 /* Target_TradingCenter.m */; };
+		7159986A1E5FE877006D94F4 /* Target_TRZXTradingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998691E5FE877006D94F4 /* Target_TRZXTradingCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,8 +107,8 @@
 		715998621E5FE4DD006D94F4 /* 看过@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "看过@3x.png"; sourceTree = "<group>"; };
 		715998631E5FE4DD006D94F4 /* 看过@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "看过@2x.png"; sourceTree = "<group>"; };
 		715998661E5FE762006D94F4 /* 回看.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "回看.png"; sourceTree = "<group>"; };
-		715998681E5FE877006D94F4 /* Target_TradingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TradingCenter.h; sourceTree = "<group>"; };
-		715998691E5FE877006D94F4 /* Target_TradingCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TradingCenter.m; sourceTree = "<group>"; };
+		715998681E5FE877006D94F4 /* Target_TRZXTradingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TRZXTradingCenter.h; sourceTree = "<group>"; };
+		715998691E5FE877006D94F4 /* Target_TRZXTradingCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXTradingCenter.m; sourceTree = "<group>"; };
 		A54E59BA9C58581B9A891D3A /* Pods-TradingCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TradingCenter/Pods-TradingCenter.debug.xcconfig"; sourceTree = "<group>"; };
 		CF92EDC124A322C4E116DCB5 /* Pods-TradingCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-TradingCenter/Pods-TradingCenter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -188,8 +188,8 @@
 		715998071E5E718F006D94F4 /* TradingCenter */ = {
 			isa = PBXGroup;
 			children = (
-				715998681E5FE877006D94F4 /* Target_TradingCenter.h */,
-				715998691E5FE877006D94F4 /* Target_TradingCenter.m */,
+				715998681E5FE877006D94F4 /* Target_TRZXTradingCenter.h */,
+				715998691E5FE877006D94F4 /* Target_TRZXTradingCenter.m */,
 				715998081E5E720C006D94F4 /* TRZXTradingCenterViewController.h */,
 				715998091E5E720C006D94F4 /* TRZXTradingCenterViewController.m */,
 				7159980B1E5E748A006D94F4 /* TradingCenterCell.h */,
@@ -400,7 +400,7 @@
 				715998531E5FDA60006D94F4 /* TradingCenterRoadshowLiveViewModel.m in Sources */,
 				7159982D1E5EB16B006D94F4 /* WMHomeViewController.m in Sources */,
 				715997F21E5E717F006D94F4 /* main.m in Sources */,
-				7159986A1E5FE877006D94F4 /* Target_TradingCenter.m in Sources */,
+				7159986A1E5FE877006D94F4 /* Target_TRZXTradingCenter.m in Sources */,
 				715998301E5EB19F006D94F4 /* WMPanGestureRecognizer.m in Sources */,
 				7159981B1E5E7F17006D94F4 /* WMTableViewController.m in Sources */,
 				7159985A1E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.m in Sources */,

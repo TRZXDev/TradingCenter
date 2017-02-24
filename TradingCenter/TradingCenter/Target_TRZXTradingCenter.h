@@ -8,6 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface Target_TradingCenter : NSObject
+@interface Target_TRZXTradingCenter : NSObject
 - (UIViewController *)Action_TradingCenterViewController:(NSDictionary *)params;
 @end
