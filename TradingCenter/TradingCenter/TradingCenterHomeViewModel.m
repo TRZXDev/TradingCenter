@@ -12,6 +12,11 @@
 
 @implementation TradingCenterHomeViewModel
 
+//- (NSDictionary *)replacedKeyFromPropertyName
+//{
+//    return @{@"ID":@"id"};
+//}
+
 
 +(NSDictionary *)objectClassInArray{
     return @{@"data":[TradingCenterActivityTrailer class]};

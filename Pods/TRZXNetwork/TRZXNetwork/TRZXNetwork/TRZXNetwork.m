@@ -17,7 +17,7 @@ static NSMutableArray      *requestTasks;//管理网络请求的队列
 
 static NSMutableDictionary *headers; //请求头的参数设置
 
-static NSString *baseURL = @"http://api.kipo.mmwipo.com/"; //baseURL
+static NSString *baseURL = @"http://test.mmwipo.com:8088/"; //baseURL
 static NSString *newBaseURL = @"http://api.mmwipo.com/"; //baseURL
 static NSString *kBaseURLStr_Path = @"api/mobile/center?equipment=ios";
 

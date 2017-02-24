@@ -6,20 +6,20 @@
 //  Copyright © 2017年 TRZX. All rights reserved.
 //
 
-#import "TradingCenterViewController.h"
+#import "TRZXTradingCenterViewController.h"
 #import "TRZXKit.h"
 #import "TradingCenterCell.h"
 #import "TradingCenterViewModel.h"
 #import "TRZXDIYRefresh.h"
 #import "WMHomeViewController.h"
 
-@interface TradingCenterViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
+@interface TRZXTradingCenterViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
 @property (strong, nonatomic) UICollectionView *collectionView;
 @property (strong, nonatomic) TradingCenterViewModel *tradingCenterViewModel;
 
 @end
 
-@implementation TradingCenterViewController
+@implementation TRZXTradingCenterViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

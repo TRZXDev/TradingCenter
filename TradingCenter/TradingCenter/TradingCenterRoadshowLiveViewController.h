@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface TradingCenterRoadshowLiveViewController : UIViewController
+@property (nonatomic, copy) NSString *exchangeId;
 
 @end

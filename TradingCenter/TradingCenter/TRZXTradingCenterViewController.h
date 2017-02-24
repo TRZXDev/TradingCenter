@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TradingCenterViewController : UIViewController
+@interface TRZXTradingCenterViewController : UIViewController
 @property (nonatomic, copy) NSString *vcTitle;
 
 @end

@@ -88,8 +88,11 @@
 
     [self.tradingCenterHomeViewModel.requestSignal_top subscribeNext:^(id x) {
 
-        // 请求完成后，更新UI
-        [self.shufflingView images:self.tradingCenterHomeViewModel.topImagesArray];
+
+        if (self.tradingCenterHomeViewModel.topImagesArray.count>0) {
+            // 请求完成后，更新UI
+            [self.shufflingView images:self.tradingCenterHomeViewModel.topImagesArray];
+        }
 
         self.tradingCenterWebViewController.webURL = self.tradingCenterHomeViewModel.webURL;
 
@@ -184,6 +187,7 @@
         }
         case 2: {
             TradingCenterRoadshowLiveViewController *vc = [[TradingCenterRoadshowLiveViewController alloc] init];
+            vc.exchangeId = self.tradingCenterHomeViewModel.exchangeId;
             return vc;
         }
         case 3: {

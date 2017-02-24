@@ -14,7 +14,7 @@
 		715997FB1E5E717F006D94F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715997F91E5E717F006D94F4 /* Main.storyboard */; };
 		715997FD1E5E717F006D94F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715997FC1E5E717F006D94F4 /* Assets.xcassets */; };
 		715998001E5E717F006D94F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 715997FE1E5E717F006D94F4 /* LaunchScreen.storyboard */; };
-		7159980A1E5E720C006D94F4 /* TradingCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998091E5E720C006D94F4 /* TradingCenterViewController.m */; };
+		7159980A1E5E720C006D94F4 /* TRZXTradingCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998091E5E720C006D94F4 /* TRZXTradingCenterViewController.m */; };
 		7159980E1E5E748A006D94F4 /* TradingCenterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159980C1E5E748A006D94F4 /* TradingCenterCell.m */; };
 		7159980F1E5E748A006D94F4 /* TradingCenterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7159980D1E5E748A006D94F4 /* TradingCenterCell.xib */; };
 		715998121E5E75B4006D94F4 /* TradingCenterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998111E5E75B4006D94F4 /* TradingCenterViewModel.m */; };
@@ -33,6 +33,17 @@
 		715998481E5ED203006D94F4 /* TradingCenterActivityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715998461E5ED203006D94F4 /* TradingCenterActivityCell.xib */; };
 		7159984B1E5ED63F006D94F4 /* TradingCenterActivityTrailer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159984A1E5ED63F006D94F4 /* TradingCenterActivityTrailer.m */; };
 		7159984E1E5EDCDC006D94F4 /* tradingCenter更多@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7159984D1E5EDCDC006D94F4 /* tradingCenter更多@2x.png */; };
+		715998531E5FDA60006D94F4 /* TradingCenterRoadshowLiveViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998521E5FDA60006D94F4 /* TradingCenterRoadshowLiveViewModel.m */; };
+		715998561E5FDBFE006D94F4 /* TradingCenterRoadshowLive.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998551E5FDBFE006D94F4 /* TradingCenterRoadshowLive.m */; };
+		7159985A1E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998581E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.m */; };
+		7159985B1E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 715998591E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.xib */; };
+		7159985E1E5FE491006D94F4 /* C直播@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7159985C1E5FE491006D94F4 /* C直播@2x.png */; };
+		7159985F1E5FE491006D94F4 /* C直播@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7159985D1E5FE491006D94F4 /* C直播@3x.png */; };
+		715998611E5FE4B5006D94F4 /* 直播.png in Resources */ = {isa = PBXBuildFile; fileRef = 715998601E5FE4B5006D94F4 /* 直播.png */; };
+		715998641E5FE4DD006D94F4 /* 看过@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 715998621E5FE4DD006D94F4 /* 看过@3x.png */; };
+		715998651E5FE4DD006D94F4 /* 看过@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 715998631E5FE4DD006D94F4 /* 看过@2x.png */; };
+		715998671E5FE762006D94F4 /* 回看.png in Resources */ = {isa = PBXBuildFile; fileRef = 715998661E5FE762006D94F4 /* 回看.png */; };
+		7159986A1E5FE877006D94F4 /* Target_TradingCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998691E5FE877006D94F4 /* Target_TradingCenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +58,8 @@
 		715997FC1E5E717F006D94F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		715997FF1E5E717F006D94F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		715998011E5E717F006D94F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		715998081E5E720C006D94F4 /* TradingCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterViewController.h; sourceTree = "<group>"; };
-		715998091E5E720C006D94F4 /* TradingCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterViewController.m; sourceTree = "<group>"; };
+		715998081E5E720C006D94F4 /* TRZXTradingCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXTradingCenterViewController.h; sourceTree = "<group>"; };
+		715998091E5E720C006D94F4 /* TRZXTradingCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXTradingCenterViewController.m; sourceTree = "<group>"; };
 		7159980B1E5E748A006D94F4 /* TradingCenterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterCell.h; sourceTree = "<group>"; };
 		7159980C1E5E748A006D94F4 /* TradingCenterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterCell.m; sourceTree = "<group>"; };
 		7159980D1E5E748A006D94F4 /* TradingCenterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradingCenterCell.xib; sourceTree = "<group>"; };
@@ -83,6 +94,21 @@
 		715998491E5ED63F006D94F4 /* TradingCenterActivityTrailer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterActivityTrailer.h; sourceTree = "<group>"; };
 		7159984A1E5ED63F006D94F4 /* TradingCenterActivityTrailer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterActivityTrailer.m; sourceTree = "<group>"; };
 		7159984D1E5EDCDC006D94F4 /* tradingCenter更多@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tradingCenter更多@2x.png"; sourceTree = "<group>"; };
+		715998511E5FDA60006D94F4 /* TradingCenterRoadshowLiveViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterRoadshowLiveViewModel.h; sourceTree = "<group>"; };
+		715998521E5FDA60006D94F4 /* TradingCenterRoadshowLiveViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterRoadshowLiveViewModel.m; sourceTree = "<group>"; };
+		715998541E5FDBFE006D94F4 /* TradingCenterRoadshowLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterRoadshowLive.h; sourceTree = "<group>"; };
+		715998551E5FDBFE006D94F4 /* TradingCenterRoadshowLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterRoadshowLive.m; sourceTree = "<group>"; };
+		715998571E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TradingCenterRoadshowLiveCell.h; sourceTree = "<group>"; };
+		715998581E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TradingCenterRoadshowLiveCell.m; sourceTree = "<group>"; };
+		715998591E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TradingCenterRoadshowLiveCell.xib; sourceTree = "<group>"; };
+		7159985C1E5FE491006D94F4 /* C直播@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C直播@2x.png"; sourceTree = "<group>"; };
+		7159985D1E5FE491006D94F4 /* C直播@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "C直播@3x.png"; sourceTree = "<group>"; };
+		715998601E5FE4B5006D94F4 /* 直播.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "直播.png"; sourceTree = "<group>"; };
+		715998621E5FE4DD006D94F4 /* 看过@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "看过@3x.png"; sourceTree = "<group>"; };
+		715998631E5FE4DD006D94F4 /* 看过@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "看过@2x.png"; sourceTree = "<group>"; };
+		715998661E5FE762006D94F4 /* 回看.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "回看.png"; sourceTree = "<group>"; };
+		715998681E5FE877006D94F4 /* Target_TradingCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TradingCenter.h; sourceTree = "<group>"; };
+		715998691E5FE877006D94F4 /* Target_TradingCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TradingCenter.m; sourceTree = "<group>"; };
 		A54E59BA9C58581B9A891D3A /* Pods-TradingCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TradingCenter/Pods-TradingCenter.debug.xcconfig"; sourceTree = "<group>"; };
 		CF92EDC124A322C4E116DCB5 /* Pods-TradingCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-TradingCenter/Pods-TradingCenter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -162,8 +188,10 @@
 		715998071E5E718F006D94F4 /* TradingCenter */ = {
 			isa = PBXGroup;
 			children = (
-				715998081E5E720C006D94F4 /* TradingCenterViewController.h */,
-				715998091E5E720C006D94F4 /* TradingCenterViewController.m */,
+				715998681E5FE877006D94F4 /* Target_TradingCenter.h */,
+				715998691E5FE877006D94F4 /* Target_TradingCenter.m */,
+				715998081E5E720C006D94F4 /* TRZXTradingCenterViewController.h */,
+				715998091E5E720C006D94F4 /* TRZXTradingCenterViewController.m */,
 				7159980B1E5E748A006D94F4 /* TradingCenterCell.h */,
 				7159980C1E5E748A006D94F4 /* TradingCenterCell.m */,
 				7159980D1E5E748A006D94F4 /* TradingCenterCell.xib */,
@@ -185,6 +213,13 @@
 				715998351E5EB6FC006D94F4 /* TradingCenterListedProjectViewController.m */,
 				715998371E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.h */,
 				715998381E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.m */,
+				715998511E5FDA60006D94F4 /* TradingCenterRoadshowLiveViewModel.h */,
+				715998521E5FDA60006D94F4 /* TradingCenterRoadshowLiveViewModel.m */,
+				715998541E5FDBFE006D94F4 /* TradingCenterRoadshowLive.h */,
+				715998551E5FDBFE006D94F4 /* TradingCenterRoadshowLive.m */,
+				715998571E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.h */,
+				715998581E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.m */,
+				715998591E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.xib */,
 				7159983A1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.h */,
 				7159983B1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.m */,
 				7159983F1E5ED1E7006D94F4 /* TradingCenterTrailerCell.h */,
@@ -203,6 +238,12 @@
 		7159984C1E5EDCD1006D94F4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				715998661E5FE762006D94F4 /* 回看.png */,
+				715998621E5FE4DD006D94F4 /* 看过@3x.png */,
+				715998631E5FE4DD006D94F4 /* 看过@2x.png */,
+				715998601E5FE4B5006D94F4 /* 直播.png */,
+				7159985C1E5FE491006D94F4 /* C直播@2x.png */,
+				7159985D1E5FE491006D94F4 /* C直播@3x.png */,
 				7159984D1E5EDCDC006D94F4 /* tradingCenter更多@2x.png */,
 			);
 			path = Resources;
@@ -270,10 +311,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715998651E5FE4DD006D94F4 /* 看过@2x.png in Resources */,
 				715998001E5E717F006D94F4 /* LaunchScreen.storyboard in Resources */,
 				715997FD1E5E717F006D94F4 /* Assets.xcassets in Resources */,
+				7159985F1E5FE491006D94F4 /* C直播@3x.png in Resources */,
+				715998641E5FE4DD006D94F4 /* 看过@3x.png in Resources */,
 				715998431E5ED1E7006D94F4 /* TradingCenterTrailerCell.xib in Resources */,
+				7159985B1E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.xib in Resources */,
+				7159985E1E5FE491006D94F4 /* C直播@2x.png in Resources */,
 				7159984E1E5EDCDC006D94F4 /* tradingCenter更多@2x.png in Resources */,
+				715998611E5FE4B5006D94F4 /* 直播.png in Resources */,
+				715998671E5FE762006D94F4 /* 回看.png in Resources */,
 				7159980F1E5E748A006D94F4 /* TradingCenterCell.xib in Resources */,
 				715998481E5ED203006D94F4 /* TradingCenterActivityCell.xib in Resources */,
 				715997FB1E5E717F006D94F4 /* Main.storyboard in Resources */,
@@ -337,6 +385,7 @@
 			files = (
 				715998151E5E75C9006D94F4 /* TradingCenter.m in Sources */,
 				715998421E5ED1E7006D94F4 /* TradingCenterTrailerCell.m in Sources */,
+				715998561E5FDBFE006D94F4 /* TradingCenterRoadshowLive.m in Sources */,
 				7159980E1E5E748A006D94F4 /* TradingCenterCell.m in Sources */,
 				715998361E5EB6FC006D94F4 /* TradingCenterListedProjectViewController.m in Sources */,
 				715998211E5E8727006D94F4 /* TradingCenterHomeViewModel.m in Sources */,
@@ -344,14 +393,17 @@
 				715998331E5EB682006D94F4 /* TradingCenterWebViewController.m in Sources */,
 				715998391E5EB749006D94F4 /* TradingCenterRoadshowLiveViewController.m in Sources */,
 				715997F81E5E717F006D94F4 /* ViewController.m in Sources */,
-				7159980A1E5E720C006D94F4 /* TradingCenterViewController.m in Sources */,
+				7159980A1E5E720C006D94F4 /* TRZXTradingCenterViewController.m in Sources */,
 				715997F51E5E717F006D94F4 /* AppDelegate.m in Sources */,
 				7159983C1E5EB802006D94F4 /* TradingCenterActivityTrailerViewController.m in Sources */,
 				715998471E5ED203006D94F4 /* TradingCenterActivityCell.m in Sources */,
+				715998531E5FDA60006D94F4 /* TradingCenterRoadshowLiveViewModel.m in Sources */,
 				7159982D1E5EB16B006D94F4 /* WMHomeViewController.m in Sources */,
 				715997F21E5E717F006D94F4 /* main.m in Sources */,
+				7159986A1E5FE877006D94F4 /* Target_TradingCenter.m in Sources */,
 				715998301E5EB19F006D94F4 /* WMPanGestureRecognizer.m in Sources */,
 				7159981B1E5E7F17006D94F4 /* WMTableViewController.m in Sources */,
+				7159985A1E5FE003006D94F4 /* TradingCenterRoadshowLiveCell.m in Sources */,
 				7159984B1E5ED63F006D94F4 /* TradingCenterActivityTrailer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
