@@ -212,14 +212,17 @@
 }
 
 -(TRZXShufflingView *)shufflingView{
+
+    __weak WMHomeViewController *weakSelf = self;
+
     if (!_shufflingView) {
         _shufflingView = [[TRZXShufflingView alloc] initWithFrame:CGRectMake(0, 64, self.view.width, self.view.width*9/16)];
         _shufflingView.didClickImageAtIndexBlock = ^(NSInteger index){
 
-            NSDictionary *dic = self.tradingCenterHomeViewModel.topDicArray[index];
+            NSDictionary *dic = weakSelf.tradingCenterHomeViewModel.topDicArray[index];
             UIViewController *goodsDetailVC = [[CTMediator sharedInstance] webViewControllerWithWebURL:dic[@"picUrl"]];
             if (goodsDetailVC) {
-                [self.navigationController pushViewController:goodsDetailVC animated:YES];
+                [weakSelf.navigationController pushViewController:goodsDetailVC animated:YES];
             }
 
         };

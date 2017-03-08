@@ -18,6 +18,5 @@
 
 
 -(NSDictionary *)toTipsParams;
-- (void)configWithObj:(TradingCenter *)model;
 
 @end

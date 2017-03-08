@@ -10,6 +10,7 @@
 #import "MJExtension.h"
 
 @implementation TradingCenterViewModel
+
 +(NSDictionary *)objectClassInArray{
     return @{@"data":[TradingCenter class]};
 }

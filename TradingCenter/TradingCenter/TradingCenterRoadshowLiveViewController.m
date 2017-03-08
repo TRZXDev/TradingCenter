@@ -67,7 +67,6 @@
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
 
-    TradingCenterRoadshowLive *model = self.tradingCenterRoadshowLiveViewModel.data[indexPath.row];
 
 }
 
